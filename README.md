@@ -1,2 +1,2 @@
-# customer-servise
-microservicio para el manejo de clientes (pruebas iniciales)
+# CustomerService
+Repositorio de microservicio para manejar los cliente
