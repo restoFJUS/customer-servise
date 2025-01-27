@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "BookingService", url = "localhost:9092/booking")
+@FeignClient(name = "BookingService", url = "gateway-service:8080/booking")
 public interface BookingClient {
 
     @GetMapping( "/search-by-customer/{idCustomer}")
